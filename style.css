@@ -145,7 +145,7 @@ main{
 .currency-table--container{
     width: 100%;
     display: grid;
-    grid-template: repeat(4,39px)/ repeat(2,35%);
+    grid-template: repeat(4,39px)/ repeat(2,50%);
     gap: 1px;
     align-content: center;
     justify-content: center;
