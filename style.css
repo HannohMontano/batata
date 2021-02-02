@@ -163,3 +163,10 @@ main{
 .currency-table-cells:nth-of-type(7){
     border-radius: 0px 0px 0px 8px;
 }
+.cripname{
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #B5B0AC;
+    margin: 10px 10px;
+}
