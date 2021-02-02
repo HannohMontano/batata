@@ -128,3 +128,38 @@ main{
     font-weight: 500;
     color: #757575;
 }
+.currency-table--title{
+    margin-top: 48px;
+    margin-bottom: 12px;
+    font-family: DM Sans;
+    color: #FF9536;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.34rem;
+    position: relative;
+    right:45px;
+}
+.currency-table--container{
+    width: 195px;
+    display: grid;
+    grid-template: repeat(4,39px)/ repeat(2,101px);
+    gap: 1px;
+    margin: 0 auto;
+    
+}
+.currency-table--container .currency-table-cells{
+    background-color: white;
+}
+.currency-table-cells:nth-of-type(1){
+    border-radius: 8px 0px 0px 0px;
+    
+}
+.currency-table-cells:nth-of-type(2){
+    border-radius: 0px 8px 0px 0px;;
+}
+.currency-table-cells:nth-of-type(8){
+    border-radius: 0px 0px 8px 0px;
+}
+.currency-table-cells:nth-of-type(7){
+    border-radius: 0px 0px 0px 8px;
+}
