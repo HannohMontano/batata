@@ -203,3 +203,17 @@ main{
     background-size: cover;
     margin-left: 10px;
 }
+.update{
+    width: 190px;
+    height: 31px;
+    background-color: var(--soft-orange);
+    margin: 16px auto;
+    border-radius: 16px;
+    padding: 8px;
+    
+}
+.update p{
+    font-family: Inter;
+    color: var(--warm-black);
+    font-size: 1.2rem;
+}
